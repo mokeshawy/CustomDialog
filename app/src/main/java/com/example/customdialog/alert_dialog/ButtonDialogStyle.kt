@@ -1,4 +1,8 @@
 package com.example.customdialog.alert_dialog
 
-class ButtonDialogStyle {
+import android.graphics.drawable.Drawable
+
+class ButtonDialogStyle (val backGround : Drawable? = null , val textColor : Int? = null){
+
+
 }
